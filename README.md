@@ -88,3 +88,5 @@ openssl x509 -req -in mydomain.com.csr -CA rootCA.crt -CAkey rootCA.key -CAcreat
 openssl x509 -in mydomain.com.crt -text -noout
 ```
 
+
+[Only create a self-signed SSL Certificate without rootCA](https://www.akadia.com/services/ssh_test_certificate.html)
