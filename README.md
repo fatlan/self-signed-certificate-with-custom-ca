@@ -95,8 +95,8 @@ openssl x509 -in mydomain.com.crt -text -noout
 <br>
 
 ----
-[Test of java SSL - SSLPoke.java](https://gist.github.com/4ndrej/4547029)
+1- [Test of java SSL - SSLPoke.java script](https://gist.github.com/4ndrej/4547029)
 
-- openssl s_client -connect fatlan.com:443
+2- openssl s_client -connect fatlan.com:443
 
-- curl -X GET https:// fatlan.com /auth
+3- curl -X GET https:// fatlan.com /auth
