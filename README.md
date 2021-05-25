@@ -87,6 +87,16 @@ openssl x509 -req -in mydomain.com.csr -CA rootCA.crt -CAkey rootCA.key -CAcreat
 ```
 openssl x509 -in mydomain.com.crt -text -noout
 ```
+<br>
 
+-----
+[Only create a self-signed SSL Certificate without rootCA](https://www.akadia.com/services/ssh_test_certificate.html) <br>
 
-[Only create a self-signed SSL Certificate without rootCA](https://www.akadia.com/services/ssh_test_certificate.html)
+<br>
+
+----
+[Test of java SSL - SSLPoke.java](https://gist.github.com/4ndrej/4547029)
+
+- openssl s_client -connect fatlan.com:443
+
+- curl -X GET https:// fatlan.com /auth
